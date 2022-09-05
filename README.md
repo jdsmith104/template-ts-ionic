@@ -4,8 +4,8 @@ Project used to standardise a template for my Ionic projects
 - ionic isntalled on command line
 - yarn already installed
 - Install boiler plate with types `ionic start demoApp blank --type=react typescript`
-- Adding linter (prettier + esline)
-- Add linting command (edit package.json)
+- Adding linter (prettier + esline) `yarn tidy`
+- Add linting command (edit package.json) `yarn lint`
 - Add unit tests (https://kulshekhar.github.io/ts-jest/docs/getting-started/installation)
 
 ## Debugging
