@@ -13,13 +13,13 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  
+
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"] // Your TypeScript files extension,
-    }],
+    }
+  ],
 
-  
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "semi": [2, "always"],

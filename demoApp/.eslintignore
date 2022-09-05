@@ -8,3 +8,5 @@ src/serviceWorkerRegistration.ts
 src/setupTests.ts
 
 capacitor.config.ts
+
+index.tsx
