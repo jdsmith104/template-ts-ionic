@@ -1,5 +1,5 @@
 # template-ts-ionic
-Project used to standardise a template for my Ionic projects
+Project used to standardise a template for my Ionic projects with a firebase backend
 ## Setup 
 - ionic isntalled on command line
 - yarn already installed
