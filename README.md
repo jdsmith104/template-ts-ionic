@@ -16,3 +16,23 @@ Make sure that the **port used in the url property of your launch.json** file ma
 
 ## Use
 - Run server `ionic serve`
+
+## Debugging
+- Error 
+````bash
+[eslint] Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig » E:\Src\stop-procrastinating\front-end\node_modules\react-scripts\node_modules\eslint-config-react-app\base.js".
+[react-scripts] webpack compiled with 1 error
+````
+- Solution
+npm:
+````
+npm dedupe && npm i
+````
+yarn:
+````
+npx yarn-deduplicate && yarn
+````
+pnpm:
+````
+pnpm dlx pnpm-deduplicate && pnpm i
+````
